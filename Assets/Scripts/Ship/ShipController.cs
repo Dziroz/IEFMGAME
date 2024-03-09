@@ -26,6 +26,10 @@ public class ShipController : MonoBehaviour
         {
             rb.AddRelativeForce(speed, 0, 0);
         }
+        if (Input.GetKey(KeyCode.S))
+        {
+            rb.AddRelativeForce(-speed, 0, 0);
+        }
         if (Input.GetKey(KeyCode.D))
         {
             rb.AddRelativeTorque(0, angleSpeed, 0);
