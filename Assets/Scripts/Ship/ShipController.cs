@@ -32,11 +32,13 @@ public class ShipController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            rb.AddRelativeTorque(0, angleSpeed, 0);
+            rb.AddRelativeTorque(0, 0, angleSpeed);
+            Debug.Log("right");
         }
         if (Input.GetKey(KeyCode.A))
         {
-            rb.AddRelativeTorque(0, -angleSpeed, 0);
+            rb.AddRelativeTorque(0, 0, -angleSpeed);
+            Debug.Log("left");
         }
     }
 }
