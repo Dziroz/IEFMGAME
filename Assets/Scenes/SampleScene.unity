@@ -504,7 +504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -640,7 +640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -845,7 +845,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -1510,7 +1510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
@@ -2770,7 +2770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d807c25aea1a7984eb768bb074667e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  amplitude: 0.5
+  amplitude: 3
   lenght: 5
   speed: 1
   offset: 0
