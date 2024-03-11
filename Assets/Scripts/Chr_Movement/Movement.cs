@@ -11,7 +11,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private Rigidbody rg;
     [SerializeField] private float jumpForce = 300;
     [SerializeField] private float run_sped = 0;
-    private float smoothrot = 0.1f;//коэфицент плавной ротации
+    private float smoothrot = 0.2f;//коэфицент плавной ротации
     float smoothturnvel;//скорость плавной ротации
     void Update()
     {
@@ -23,6 +23,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space)) rg.AddForce(Vector3.up * jumpForce);
         float angle = Mathf.Atan2(dir.x, dir.z) * Mathf.Rad2Deg;
         float smoothangle = Mathf.SmoothDampAngle(transform.eulerAngles.y, angle, ref smoothturnvel, smoothrot);
-        transform.rotation = Quaternion.Euler(0f, smoothangle, 0f);
+        if ((Input.GetAxis("Horizontal") != 0) || (Input.GetAxis("Vertical"))!= 0)
+                transform.rotation = Quaternion.Euler(0f, smoothangle, 0f);
     }
 }
