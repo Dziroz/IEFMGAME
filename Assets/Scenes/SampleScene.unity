@@ -1884,6 +1884,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739677097}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &863028278 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1575574533581236634, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+  m_PrefabInstance: {fileID: 1006858760094369168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3762,6 +3767,25 @@ MonoBehaviour:
   floaterCount: 1
   waterDrag: 2
   waterAngularDrag: 2
+--- !u!1 &1996738156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4716570220597926807, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+  m_PrefabInstance: {fileID: 1006858760094369168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1996738157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996738156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 009334e2f5dcd3e4cac9ad6d9dfafa9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 1
+  ender: {fileID: 863028278}
 --- !u!1 &2010362633
 GameObject:
   m_ObjectHideFlags: 0
@@ -4103,6 +4127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 561853412264549710, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 717534706078298216, guid: 9def0984ab115a441a8db711f774f197, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4187,6 +4215,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 963194227}
+    - target: {fileID: 1575574533581236634, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+      propertyPath: m_Name
+      value: End
+      objectReference: {fileID: 0}
+    - target: {fileID: 1575574533581236634, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4716570220597926807, guid: 9def0984ab115a441a8db711f774f197, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -4194,7 +4230,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4716570220597926807, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1996738157}
   m_SourcePrefab: {fileID: 100100000, guid: 9def0984ab115a441a8db711f774f197, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
