@@ -78,8 +78,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Cube.001|Cube.001Action
-      takeName: Cube.001|Cube.001Action
+      name: Cube.001|Cube.002Action (1)
+      takeName: Cube.001|Cube.002Action
       internalID: -8515560403302317629
       firstFrame: 0
       lastFrame: 19
