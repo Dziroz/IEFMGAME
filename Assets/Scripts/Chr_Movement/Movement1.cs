@@ -12,7 +12,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private float jumpForce = 300;
     [SerializeField] private float run_sped = 0;
 
-    private float smoothrot = 0.2f;//коэфицент плавной ротации
+    [SerializeField] private float smoothrot = 0.05f;//коэфицент плавной ротации
     float smoothturnvel;//скорость плавной ротации
 
     //public bool isGrounded;
@@ -20,8 +20,19 @@ public class Movement : MonoBehaviour
     void Update()
     {
         run_sped = speed;
-        if(Input.GetKey(KeyCode.LeftShift)|| Input.GetKey(KeyCode.RightShift)) run_sped = speed*2;
-        Vector3 dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")) * run_sped;
+        float pl_horiz = Input.GetAxis("Horizontal");
+        float pl_vert = Input.GetAxis("Vertical");
+
+        Vector3 forward = Camera.main.transform.forward;
+        Vector3 right = Camera.main.transform.right;
+
+        Vector3 Cam_rel_vert = pl_vert * forward;
+        Vector3 Cam_rel_horiz = pl_horiz * right;
+
+        Vector3 Cam_rel_movement = Cam_rel_horiz + Cam_rel_vert;
+
+        if (Input.GetKey(KeyCode.LeftShift)|| Input.GetKey(KeyCode.RightShift)) run_sped = speed*2;
+        Vector3 dir = Cam_rel_movement * run_sped;
 
         dir.y = rg.velocity.y;
         rg.velocity = dir;

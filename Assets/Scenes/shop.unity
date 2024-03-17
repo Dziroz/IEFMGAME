@@ -816,13 +816,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1235038304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1362d0de280bb564fa3c7dd83adfe8bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 087a3b2829689e648b55e80f032eefd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
-  rg: {fileID: 1235038307}
+  speed: 1
+  rg: {fileID: 0}
   jumpForce: 300
   run_sped: 0
+  smoothrot: 0.05
 --- !u!54 &1235038307
 Rigidbody:
   m_ObjectHideFlags: 0
