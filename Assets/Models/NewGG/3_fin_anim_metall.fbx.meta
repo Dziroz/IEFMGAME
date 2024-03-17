@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: db34eed2160dddc4fb13765ae88ed127
+guid: 2378af9a63a8cb342a767e18830a0dae
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -78,9 +78,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: metarig.002|matall_valk
-      takeName: metarig.002|matall_valk
-      internalID: 8149135990500677951
+      name: valk
+      takeName: valk
+      internalID: 4191495033840919378
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
@@ -107,9 +107,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: metarig.002|metarig.003|metarig.002|matall_valk
-      takeName: metarig.002|metarig.003|metarig.002|matall_valk
-      internalID: -5093231350567936763
+      name: matall_valk
+      takeName: matall_valk
+      internalID: 6471233027819460442
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
@@ -136,9 +136,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: metarig.002|metarig.003|metarig.002|valk
-      takeName: metarig.002|metarig.003|metarig.002|valk
-      internalID: 2148551430152309794
+      name: rig_metall|matall_valk
+      takeName: rig_metall|matall_valk
+      internalID: 1282772043520241571
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_metall|metarig.003|metarig.002|valk
+      takeName: rig_metall|metarig.003|metarig.002|valk
+      internalID: 4431750185839124835
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
@@ -165,9 +194,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: metarig.002|valk
-      takeName: metarig.002|valk
-      internalID: -6072664463052581608
+      name: rig_metall|rig_metall.001|rig_metall|matall_valk
+      takeName: rig_metall|rig_metall.001|rig_metall|matall_valk
+      internalID: 8752871746587899531
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: rig_metall|valk
+      takeName: rig_metall|valk
+      internalID: 7018440450667410742
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
