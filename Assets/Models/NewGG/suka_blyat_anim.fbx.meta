@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2378af9a63a8cb342a767e18830a0dae
+guid: e5515546c0993734a87532fb9631d7e4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,48 +7,48 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.009
-    second: {fileID: 2100000, guid: cf7232a8b30a059449327b18efb88e09, type: 2}
+      name: Material.001
+    second: {fileID: 2100000, guid: 39b7cf0196e9de948bad29fb50b225a6, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.011
-    second: {fileID: 2100000, guid: 65d487973ed6982439f78dcd4d5c1b33, type: 2}
+      name: Material.002
+    second: {fileID: 2100000, guid: 3f2481db3808bad468b1f95b1a78a1bb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.012
-    second: {fileID: 2100000, guid: 72a5c4e0491e90546897b613cf7103b7, type: 2}
+      name: Material.003
+    second: {fileID: 2100000, guid: 1b657874b695a2e4f910a4bf8b842056, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.013
-    second: {fileID: 2100000, guid: 404e33befce166c42970b6179f45dc58, type: 2}
+      name: Material.004
+    second: {fileID: 2100000, guid: ac1283ba1510ef74c83fb3d561ab56f2, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.014
-    second: {fileID: 2100000, guid: 8530499c16b585740a1c032d7ab88f4b, type: 2}
+      name: Material.005
+    second: {fileID: 2100000, guid: db1b63e9008f6bd46aa963f9fd416805, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.015
-    second: {fileID: 2100000, guid: d5edefc53687d1f489056bc5f7870a95, type: 2}
+      name: Material.006
+    second: {fileID: 2100000, guid: 1c1fbc19239cf7e48810568a794eda4f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.019
-    second: {fileID: 2100000, guid: 95659a7883b85df4e9b25fe02138e589, type: 2}
+      name: Material.008
+    second: {fileID: 2100000, guid: 9d5446db4085d3041803fa1a172789d4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.022
-    second: {fileID: 2100000, guid: 8ef9da79bb764ec42840a8d4709cbc14, type: 2}
+      name: Material.020
+    second: {fileID: 2100000, guid: de0fa556ad84dd4439cb4ba32060b300, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.028
-    second: {fileID: 2100000, guid: 851039dd503c1564db5f05418e05e467, type: 2}
+      name: Material.021
+    second: {fileID: 2100000, guid: a0119c60314d7ea4e8c2d9d7be2a0bd7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -78,9 +78,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: valk
-      takeName: valk
-      internalID: 4191495033840919378
+      name: rig_metall|rig_metall|valk (1)
+      takeName: rig_metall|rig_metall|valk
+      internalID: 8897313782728636215
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
@@ -107,125 +107,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: matall_valk
-      takeName: matall_valk
-      internalID: 6471233027819460442
-      firstFrame: 0
-      lastFrame: 19
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: rig_metall|matall_valk
-      takeName: rig_metall|matall_valk
-      internalID: 1282772043520241571
-      firstFrame: 0
-      lastFrame: 19
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: rig_metall|metarig.003|metarig.002|valk
-      takeName: rig_metall|metarig.003|metarig.002|valk
-      internalID: 4431750185839124835
-      firstFrame: 0
-      lastFrame: 19
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: rig_metall|rig_metall.001|rig_metall|matall_valk
-      takeName: rig_metall|rig_metall.001|rig_metall|matall_valk
-      internalID: 8752871746587899531
-      firstFrame: 0
-      lastFrame: 19
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: rig_metall|valk
-      takeName: rig_metall|valk
-      internalID: 7018440450667410742
+      name: rig_metall|rig_metall|valk
+      takeName: rig_metall|rig_metall|valk
+      internalID: -2910566741709634708
       firstFrame: 0
       lastFrame: 19
       wrapMode: 0
