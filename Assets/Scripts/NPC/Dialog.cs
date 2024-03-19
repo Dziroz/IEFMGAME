@@ -17,7 +17,7 @@ public class Dialog : MonoBehaviour
         }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name == "boy") 
+        if (other.name == "suka_blyat_anim") 
         { 
             player_detection = true; 
             butt.SetActive(true); 
