@@ -55,11 +55,11 @@ public class Npc_wandering : MonoBehaviour
     IEnumerator Wander()
     {
       
-            int rotTime = Random.Range(1, 3);
-            int rotateWait = Random.Range(1, 4);
+            int rotTime = Random.Range(1, 2);
+            int rotateWait = Random.Range(2, 5);
             int rotateLorR = Random.Range(1, 2);
-            int walkWait = Random.Range(1, 5);
-            int walkTime = Random.Range(1, 6);
+            int walkWait = Random.Range(3, 5);
+            int walkTime = Random.Range(2, 4);
 
             isWandering = true;
 

@@ -5,15 +5,17 @@ using UnityEngine;
 public class Dialog : MonoBehaviour
 {
     public bool player_detection = false;
-    int i = 0;
+    public int i = 0;
     public GameObject butt;
+    public GameObject text;
     void Update()
     {
         if (player_detection && Input.GetKeyDown(KeyCode.E))
             {
-                print("dialoggg" + i);
-                i++;
-            }
+            i++;
+            text.SetActive(true);
+            if (i % 2 == 0) { text.SetActive(false); i = 0; }
+        }
         }
     private void OnTriggerEnter(Collider other)
     {
@@ -28,5 +30,7 @@ public class Dialog : MonoBehaviour
     {
         player_detection = false;
         butt.SetActive(false);
+        text.SetActive(false);
+        i = 0;
     }
 }
