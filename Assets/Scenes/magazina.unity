@@ -15740,6 +15740,7 @@ GameObject:
   - component: {fileID: 2018076754}
   - component: {fileID: 2018076753}
   - component: {fileID: 2018076752}
+  - component: {fileID: 2018076755}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -15821,6 +15822,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 24.708, y: 0, z: 0}
+--- !u!114 &2018076755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018076751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42cd8dcae69d178488f5efa28e7c7e78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 95703b29f49b899499233ea7308bb800, type: 3}
+  BlockCount: 326
 --- !u!1 &2020132728
 GameObject:
   m_ObjectHideFlags: 0
@@ -16994,16 +17009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d8cc13c9791d4c429d469ee3224b6df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  i: 0
-  j: 0
-  speed: 1
-  det: {fileID: 1241082372}
 --- !u!4 &2126691823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1675216171401901629, guid: 84b9695647c99914fa23b6d2cd1e528b, type: 3}
