@@ -7,6 +7,7 @@ using UnityEngine;
 public class WaterManager : MonoBehaviour
 {
     private MeshFilter meshFitler;
+    public int x;
 
     private void Awake()
     {
