@@ -5,9 +5,10 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class DayTime: MonoBehaviour
 {
-    
+    [SerializeField] Material waterMaterial;
     [SerializeField] Gradient directionalLightGradient;
     [SerializeField] Gradient ambientLightGradient;
+    [SerializeField] Gradient waterLightGradient;
 
     [SerializeField, Range(1, 3600)] float timeDayInSecond = 60;
     [SerializeField, Range(0f, 1f)] float timeProgress;
@@ -37,5 +38,9 @@ public class DayTime: MonoBehaviour
         RenderSettings.ambientLight = ambientLightGradient.Evaluate(timeProgress);
 
         dirLight.transform.localEulerAngles = new Vector3(360f * timeProgress - 90, defaultAngless.x, defaultAngless.z);
+
+        waterMaterial.SetColor("_DepthGradientDeep", waterLightGradient.Evaluate(timeProgress));
+    
+        
     }
 }
