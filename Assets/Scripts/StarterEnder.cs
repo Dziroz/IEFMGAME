@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class StarterEnder : MonoBehaviour
 {
-    static public int loadedScene = 1;
+    static public int loadedScene;
     public bool go;
     
     void Start()
