@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.6864172, g: 0.453692, b: 0.12309703, a: 1}
+  m_AmbientSkyColor: {r: 0.14778392, g: 0.15753664, b: 0.38679248, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.42
@@ -1050,7 +1050,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.6864172, g: 0.453692, b: 0.12309703, a: 1}
+  m_Color: {r: 0.14778392, g: 0.15753664, b: 0.38679248, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1109,7 +1109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7862608, y: 0.09829924, z: -0.5960871, w: 0.12965882}
+  m_LocalRotation: {x: 0.49758312, y: -0.39750883, z: -0.7204305, w: -0.27455}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1545,7 +1545,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 71.794044
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: 1.42
@@ -1828,7 +1828,7 @@ MonoBehaviour:
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   timeDayInSecond: 10
-  timeProgress: 0.6979769
+  timeProgress: 0.08950874
   dirLight: {fileID: 705507994}
 --- !u!4 &1021358013
 Transform:
@@ -1985,7 +1985,7 @@ MonoBehaviour:
   m_VerticalAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 900
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse Y
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   m_HorizontalAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 300
+    m_MaxSpeed: 900
     m_AccelTime: 0.1
     m_DecelTime: 0.1
     m_InputAxisName: Mouse X
@@ -2515,8 +2515,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccded532cc6de494b9ea97ff297da89d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 45
-  speed: 45
+  maxSpeed: 20
+  speed: 20
   boost: 1
   timer: 0
   timerSpeed: 0.1
@@ -3256,7 +3256,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 323775520}
   m_Follow: {fileID: 323775520}
   m_Lens:
-    FieldOfView: 71.794044
+    FieldOfView: 90
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000

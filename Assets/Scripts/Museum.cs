@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class Museum : MonoBehaviour
 {
-    public GameObject[] artifact;
-    public static bool[] selfArtifact;
+    [SerializeField]public GameObject[] artifact;
+    public static bool[] selfArtifact = new bool[5];
     void Start()
     {
-        
+        selfArtifact[0] = true;
+        MuseumStart();
     }
 
  
     void Update()
     {
-        
+        Debug.Log(selfArtifact[0]);
+      
     }
     void MuseumStart()
     {

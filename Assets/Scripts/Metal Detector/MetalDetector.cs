@@ -8,15 +8,21 @@ public class MetalDetector : MonoBehaviour
     [SerializeField] GameObject[] detectedItem;
     [SerializeField] GameObject currentItem;
     [SerializeField] float distance;
+    [SerializeField] AudioSource audio;
+    [SerializeField] float timer;
+    [SerializeField] float period;
+
     void Start()
     {
+        audio = GetComponent<AudioSource>();
         Detection();
     }
 
     void Update()
     {
-        Tracking();
+        timer += Time.deltaTime;
         Indication();
+        Tracking();
     }
     void Detection()
     {
@@ -42,6 +48,11 @@ public class MetalDetector : MonoBehaviour
         if(Vector3.Distance(gameObject.transform.position, currentItem.transform.position) < detectionRadius)
         {
             distance = Vector3.Distance(gameObject.transform.position, currentItem.transform.position);
+            if (timer >= distance/10)
+            {
+                audio.Play();
+                timer = 0;
+            }
             Debug.Log(distance);
         }
     }
