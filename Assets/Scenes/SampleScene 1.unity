@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.10180783, g: 0.1488924, b: 0.49923223, a: 1}
+  m_AmbientSkyColor: {r: 0.61727285, g: 0.44916013, b: 0.18734908, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.42
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3736215, g: 0.6293576, b: 0.6662703, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -470,7 +470,7 @@ Transform:
   m_GameObject: {fileID: 381837001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.6511707, z: -0, w: 0.75893134}
-  m_LocalPosition: {x: -2.909999, y: 0, z: 0}
+  m_LocalPosition: {x: -2.909999, y: -0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -497,7 +497,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f8fc3c587253eab4180bc637402e8ece, type: 2}
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -803,9 +803,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.07
-      minScalar: 1
+      minMaxState: 3
+      scalar: 0.05
+      minScalar: 0.005
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -856,7 +856,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -909,7 +909,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -1257,7 +1257,7 @@ ParticleSystem:
     m_UseMeshMaterialIndex: 0
     m_UseMeshColors: 1
     alignToDirection: 0
-    m_Texture: {fileID: 2800000, guid: 257535b413344a545b53623c1e166d8b, type: 3}
+    m_Texture: {fileID: 0}
     m_TextureClipChannel: 3
     m_TextureClipThreshold: 0
     m_TextureUVChannel: 0
@@ -1885,8 +1885,8 @@ ParticleSystem:
         m_NumAlphaKeys: 2
   UVModule:
     serializedVersion: 2
-    enabled: 0
-    mode: 0
+    enabled: 1
+    mode: 1
     timeMode: 0
     fps: 30
     frameOverTime:
@@ -2004,7 +2004,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 0}
+    - sprite: {fileID: 21300000, guid: 2193023edeb5a6a4782c54ad9be9f7eb, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -5880,7 +5880,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.10180783, g: 0.1488924, b: 0.49923223, a: 1}
+  m_Color: {r: 0.61727285, g: 0.44916013, b: 0.18734908, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -5939,7 +5939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.13518962, y: 0.79869646, z: 0.55287063, w: 0.1952993}
+  m_LocalRotation: {x: 0.12623167, y: -0.86705875, z: 0.39367312, w: 0.2780219}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6630,17 +6630,17 @@ MonoBehaviour:
   waterLightGradient:
     serializedVersion: 2
     key0: {r: 0.03529412, g: 0.10980392, b: 0.24705882, a: 1}
-    key1: {r: 0.44313726, g: 0.8509804, b: 0.9843137, a: 1}
+    key1: {r: 0, g: 0.50980395, b: 0.8666667, a: 1}
     key2: {r: 0.44313726, g: 0.8509804, b: 0.9843137, a: 0}
-    key3: {r: 0, g: 0.50980395, b: 0.8666667, a: 0}
+    key3: {r: 0.44313726, g: 0.8509804, b: 0.9843137, a: 0}
     key4: {r: 0.03529412, g: 0.10980392, b: 0.24705882, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 16577
-    ctime2: 26792
-    ctime3: 47417
+    ctime1: 17540
+    ctime2: 34502
+    ctime3: 46453
     ctime4: 64186
     ctime5: 0
     ctime6: 0
@@ -6658,7 +6658,7 @@ MonoBehaviour:
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   timeDayInSecond: 10
-  timeProgress: 0.94273114
+  timeProgress: 0.6143355
   dirLight: {fileID: 705507994}
 --- !u!4 &1021358013
 Transform:
