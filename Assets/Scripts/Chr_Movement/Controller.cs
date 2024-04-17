@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+    [SerializeField] private GameObject Player;
     void Start()
     {
         
@@ -24,6 +25,14 @@ public class Controller : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 other.gameObject.GetComponent<Animator>().Play("Open");
+            }
+        }
+        if(other.gameObject.name == "metal")
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Destroy(other.gameObject);
+                //other.gameObject.SetActive(false);
             }
         }
     }

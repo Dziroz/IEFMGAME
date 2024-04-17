@@ -5,8 +5,8 @@ using UnityEngine;
 public class MetalDetector : MonoBehaviour
 {
     [SerializeField] float detectionRadius;
-    [SerializeField] GameObject[] detectedItem;
-    [SerializeField] GameObject currentItem;
+    [SerializeField] public GameObject[] detectedItem;
+    [SerializeField] public GameObject currentItem;
     [SerializeField] float distance;
     [SerializeField] AudioSource audio;
     [SerializeField] float timer;
@@ -15,11 +15,15 @@ public class MetalDetector : MonoBehaviour
     void Start()
     {
         audio = GetComponent<AudioSource>();
-        Detection();
+        //Detection();
     }
 
     void Update()
     {
+        if (currentItem == null)
+        {
+            Detection();
+        }
         timer += Time.deltaTime;
         Indication();
         Tracking();
