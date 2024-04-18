@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SceneSystem : MonoBehaviour
 {
-    [SerializeField] int scene;
+    [SerializeField] string scene;
     [SerializeField] GameObject ender;
     void Start()
     {
@@ -18,6 +18,7 @@ public class SceneSystem : MonoBehaviour
             StarterEnder.loadedScene = scene;
             ender.SetActive(true);
         }
+        Debug.Log(StarterEnder.loadedScene);
         
     }
 }

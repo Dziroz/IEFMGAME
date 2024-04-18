@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.61727285, g: 0.44916013, b: 0.18734908, a: 1}
+  m_AmbientSkyColor: {r: 0.43881068, g: 0.319238, b: 0.27904567, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.42
@@ -5880,7 +5880,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.61727285, g: 0.44916013, b: 0.18734908, a: 1}
+  m_Color: {r: 0.43881068, g: 0.319238, b: 0.27904567, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -5939,7 +5939,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.12623167, y: -0.86705875, z: 0.39367312, w: 0.2780219}
+  m_LocalRotation: {x: 0.9524307, y: -0.047555886, z: -0.21032567, w: -0.21535364}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5993,6 +5993,7 @@ GameObject:
   - component: {fileID: 844218821}
   - component: {fileID: 844218820}
   - component: {fileID: 844218819}
+  - component: {fileID: 844218824}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -6012,7 +6013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009334e2f5dcd3e4cac9ad6d9dfafa9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 0
+  scene: shop
   ender: {fileID: 2059775505}
 --- !u!65 &844218820
 BoxCollider:
@@ -6100,6 +6101,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &844218824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844218818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a651c4b180e671c43b4dee3feb12919b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  go: 0
+  flag: 1
 --- !u!1 &863028278 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1575574533581236634, guid: 9def0984ab115a441a8db711f774f197, type: 3}
@@ -6658,7 +6673,7 @@ MonoBehaviour:
     m_NumColorKeys: 5
     m_NumAlphaKeys: 2
   timeDayInSecond: 10
-  timeProgress: 0.6143355
+  timeProgress: 0.8207826
   dirLight: {fileID: 705507994}
 --- !u!4 &1021358013
 Transform:
@@ -7775,6 +7790,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4940562026828083401, guid: 5dc0b07ff19407d49b3e12764c851b1a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6233523943198901277, guid: 5dc0b07ff19407d49b3e12764c851b1a, type: 3}
       propertyPath: m_Name
       value: Start
@@ -7782,6 +7801,10 @@ PrefabInstance:
     - target: {fileID: 6233523943198901277, guid: 5dc0b07ff19407d49b3e12764c851b1a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8776958331117067885, guid: 5dc0b07ff19407d49b3e12764c851b1a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8190,7 +8213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009334e2f5dcd3e4cac9ad6d9dfafa9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 
   ender: {fileID: 863028278}
 --- !u!1 &2059775505 stripped
 GameObject:
@@ -8426,6 +8449,10 @@ PrefabInstance:
     - target: {fileID: 1575574533581236634, guid: 9def0984ab115a441a8db711f774f197, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4220569213835867114, guid: 9def0984ab115a441a8db711f774f197, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4716570220597926807, guid: 9def0984ab115a441a8db711f774f197, type: 3}
       propertyPath: m_Name

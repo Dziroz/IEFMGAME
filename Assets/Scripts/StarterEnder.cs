@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class StarterEnder : MonoBehaviour
 {
-    static public int loadedScene;
+    static public string loadedScene;
     public bool go;
+    public bool flag = true;
     
     void Start()
     {
@@ -18,7 +19,8 @@ public class StarterEnder : MonoBehaviour
     {
         if (go)
         {
-            Load();
+            SceneManager.LoadScene(loadedScene);
+            go = false;
         }
     }
     public void Load()
