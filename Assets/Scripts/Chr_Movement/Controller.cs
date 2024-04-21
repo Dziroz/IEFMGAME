@@ -22,7 +22,7 @@ public class Controller : MonoBehaviour
     {       
         if(other.gameObject.name == "Box")
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKey(KeyCode.E))
             {
                 other.gameObject.GetComponent<Animator>().Play("Open");
             }
